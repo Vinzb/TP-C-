@@ -48,6 +48,7 @@ namespace WindowsFormsApp1
             this.button16 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button17 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -228,11 +229,21 @@ namespace WindowsFormsApp1
             this.button17.UseVisualStyleBackColor = true;
             this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(247, 65);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(81, 17);
+            this.label1.TabIndex = 18;
+            this.label1.Text = "Calculatrice\r\n";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button17);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button16);
@@ -279,6 +290,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.TextBox textBox1;
         private Operation operation;
         private Button button17;
+        private Label label1;
     }
 }
 

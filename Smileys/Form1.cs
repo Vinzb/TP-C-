@@ -38,20 +38,11 @@ namespace ExoSmileys
             float y = this.ClientSize.Height / 4;
             System.Drawing.StringFormat drawFormat = new System.Drawing.StringFormat();
             formGraphics.DrawString(drawString, drawFont, drawBrush, x, y, drawFormat);
-
-            
-
-            
-
-
             this.button2.Location = new System.Drawing.Point(100, 150);
             button2.Image = Image.FromFile("../Images/ImageOK.ico");
             button2.ImageAlign = ContentAlignment.MiddleLeft;
             button2.TextAlign = ContentAlignment.MiddleRight;
             button2.Text = "Ok";
-         
-
-
         }
 
         private void button2_Click(object sender, EventArgs e)
